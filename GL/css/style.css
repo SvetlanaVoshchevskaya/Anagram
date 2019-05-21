@@ -1,0 +1,63 @@
+
+.main {
+  max-width: 750px;
+  min-height: 600px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.title {
+  margin: 0, auto;
+  text-align: center;
+}
+
+.main-form,
+.resul-block {
+  max-width: 660px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.form {
+  max-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.str_input {
+  padding: 3px 20px;
+}
+.str_input:not(:first-child),
+.submit {
+  margin-top: 20px;
+}
+
+.submit {
+  padding: 10px;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 20px;
+}
+
+.result_img {
+  width: 30px;
+  height: 30px;
+}
+
+.positiv_result,
+.negative_result {
+  padding-left: 20px;
+}
+.info_negativ, .info_positiv {
+  display: flex;
+  align-items: center;
+}
+
+.active {visibility: hidden;}

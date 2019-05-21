@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Anagram</title>
+  </head>
+  <body>
+    <div>
+      <div class="main">
+        <h1 class="title">ANAGRAM</h1>
+        <div class="main-form">
+          <form class="form">
+            <input class="str_input first" placeholder="First string" />
+            <input class="str_input second" placeholder="Second string" />
+            <button type="submit" class="submit">CHECK</button>
+          </form>
+        </div>
+        <hr />
+        <div class="resul-block">
+          <div class="info_positiv active " >
+            <img
+              src="./img/checked.png"
+              class="result_img"
+            />
+            <p class="positiv_result" >It is an anagram!</p>
+          </div>
+          <div class="info_negativ active">
+            <img
+              src="./img/no-stopping.png"
+              class="result_img"
+            />
+            <p class="negative_result ">It isn`t an anagram!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/js/index.js"></script>
+</html>
